@@ -1,0 +1,78 @@
+2023-02-01 22:13:14,098 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-01 22:13:14,674 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-01 22:13:14,679 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-01 22:13:15,205 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1675307594678&signature=94fb1d6eb56229740626757ebec2e214d9a10102e759bff8b79b2f754dc16ce7 HTTP/1.1" 401 46
+2023-02-01 22:13:15,206 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-02-01 22:13:15,207 INFO :: Binance Futures Client successfully initialized
+2023-02-01 22:13:15,215 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-02-01 22:13:15,701 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-02-01 22:13:15,703 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-02-01 22:13:15,704 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-02-01 22:13:16,229 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-02-01 22:13:16,231 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-02-01 22:13:16,232 INFO :: Bitmex Client successfully initialized
+2023-02-01 22:14:50,887 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-01 22:14:51,521 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-01 22:14:51,527 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-01 22:14:52,332 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1675307691526&signature=5b1aa70feb0b15d042574cdf40bf18c902c25aec470a81e2ccc588cf8a969f18 HTTP/1.1" 401 46
+2023-02-01 22:14:52,333 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-02-01 22:14:52,334 INFO :: Binance Futures Client successfully initialized
+2023-02-01 22:14:52,336 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-02-01 22:14:52,540 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-02-01 22:14:52,542 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-02-01 22:14:52,543 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-02-01 22:14:52,746 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-02-01 22:14:52,747 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-02-01 22:14:52,748 INFO :: Bitmex Client successfully initialized
+2023-02-01 22:19:39,096 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-01 22:19:39,664 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-01 22:19:39,668 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-01 22:19:40,197 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1675307979667&signature=f428c9152100627022438e8a7adefe5118b127d105c35566aa28108e3dae13ca HTTP/1.1" 401 46
+2023-02-01 22:19:40,199 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-02-01 22:19:40,200 INFO :: Binance Futures Client successfully initialized
+2023-02-01 22:19:40,201 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-02-01 22:19:40,413 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-02-01 22:19:40,415 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-02-01 22:19:40,416 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-02-01 22:19:40,637 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-02-01 22:19:40,639 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-02-01 22:19:40,640 INFO :: Bitmex Client successfully initialized
+2023-02-01 22:24:17,103 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-01 22:24:17,706 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-01 22:24:17,711 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-01 22:24:18,309 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1675308257710&signature=41ac311884f1cf7bb0c277383fbddd26678a7143d68b32cc3b47306184c42d15 HTTP/1.1" 401 46
+2023-02-01 22:24:18,311 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-02-01 22:24:18,313 INFO :: Binance Futures Client successfully initialized
+2023-02-01 22:24:18,314 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-02-01 22:24:18,639 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-02-01 22:24:18,641 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-02-01 22:24:18,642 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-02-01 22:24:18,847 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-02-01 22:24:18,849 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-02-01 22:24:18,849 INFO :: Bitmex Client successfully initialized
+2023-02-01 22:31:45,217 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-01 22:31:45,793 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-01 22:31:45,798 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-01 22:31:46,394 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1675308705797&signature=bf2452beca084bfeea99e344213c111a4e572ff0d92aa306d1a022f3aa5154d3 HTTP/1.1" 401 46
+2023-02-01 22:31:46,396 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-02-01 22:31:46,396 INFO :: Binance Futures Client successfully initialized
+2023-02-01 22:31:46,398 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-02-01 22:31:46,931 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-02-01 22:31:46,933 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-02-01 22:31:46,934 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-02-01 22:31:47,124 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-02-01 22:31:47,125 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-02-01 22:31:47,126 INFO :: Bitmex Client successfully initialized
+2023-02-02 13:58:36,229 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-02 13:58:36,923 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/exchangeInfo HTTP/1.1" 200 None
+2023-02-02 13:58:36,961 DEBUG :: Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-02-02 13:58:37,635 DEBUG :: https://testnet.binancefuture.com:443 "GET /fapi/v1/account?timestamp=1675364316959&signature=43756f1969a3f374e79b5699a8cd384ce08859e9dabb2c75fa6600e09640ce0a HTTP/1.1" 401 46
+2023-02-02 13:58:37,637 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -2014, 'msg': 'API-key format invalid.'} (error code 401)
+2023-02-02 13:58:37,638 INFO :: Binance Futures Client successfully initialized
+2023-02-02 13:58:37,641 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-02-02 13:58:38,162 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/instrument/active HTTP/1.1" 400 59
+2023-02-02 13:58:38,165 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-02-02 13:58:38,167 DEBUG :: Starting new HTTPS connection (1): testnet.bitmex.com:443
+2023-02-02 13:58:38,901 DEBUG :: https://testnet.bitmex.com:443 "GET /api/v1/user/margin?currency=all HTTP/1.1" 400 59
+2023-02-02 13:58:38,904 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing API key.', 'name': 'HTTPError'}} (error code 400)
+2023-02-02 13:58:38,904 INFO :: Bitmex Client successfully initialized
